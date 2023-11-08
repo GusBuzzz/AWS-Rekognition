@@ -1,4 +1,5 @@
 # AWS Rekognition Object Detection with OpenCV
+![Example Image](data/zebras_detected.png)
 
 This code demonstrates how to use AWS Rekognition, an image and video analysis service, to perform object detection on a video using Python and OpenCV. Specifically, it detects instances of a target class (in this case, 'Zebra') in each frame of the input video ('zebras.mp4') and saves the bounding box coordinates of the detected objects to a text file, along with saving the frames with detected objects as images.
 
